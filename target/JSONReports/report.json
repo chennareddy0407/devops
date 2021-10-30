@@ -1,0 +1,75 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-29T15:31:20.598Z",
+        "line": 7,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-featuress;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to write a step with preconditions",
+            "match": {
+              "location": "stepdefinitions.login.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I complete actions",
+            "match": {
+              "location": "stepdefinitions.login.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check more outcomess",
+            "match": {
+              "location": "stepdefinitions.login.check_more_outcomes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the outcomess",
+            "match": {
+              "location": "stepdefinitions.login.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rags"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your featuress",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-featuress",
+    "keyword": "Feature",
+    "uri": "file:src/test/Feature/cucumberpluginfeature.feature",
+    "tags": []
+  }
+]
